@@ -3,29 +3,125 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Machado Copy — Copywriting de Alta Performance</title>
+  <title>Machado Copy — Estratégia, Texto e Resultado</title>
   <style>
-    body { margin: 0; font-family: Inter, Arial, sans-serif; background-color: #00040a; color: #ffffff; }
-    header { padding: 40px 20px; text-align: center; border-bottom: 2px solid #0a0f1a; background: linear-gradient(180deg,#000,#020b18); }
-    .logo { font-size: 42px; font-weight: 800; color: #e6e6e6; letter-spacing: 2px; }
-    .hero { padding: 100px 20px; text-align: center; }
-    .hero h1 { font-size: 44px; margin-bottom: 16px; color: #f3f3f3; }
-    .hero p { font-size: 18px; max-width: 780px; margin: auto; color: #bfc6cf; }
-    .section { padding: 64px 20px; text-align: center; }
-    .section h2 { font-size: 32px; margin-bottom: 18px; color: #d3d3d3; }
-    .section p { max-width: 900px; margin: auto; color: #b8b8b8; font-size: 16px; line-height:1.8; }
-    .services { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; padding: 40px 20px; }
-    .card { background-color: #030a14; padding: 26px; width: 300px; border-radius: 12px; border: 1px solid #07101d; box-shadow: 0 6px 20px rgba(0,0,0,0.5); }
-    .card h3 { font-size: 20px; margin-bottom: 10px; color: #e6e6e6; }
-    .card p { color: #a9a9a9; font-size: 14px; }
-    .cta { background: linear-gradient(180deg,#000,#061120); padding: 80px 20px; text-align: center; }
-    .cta h2 { font-size: 28px; margin-bottom: 12px; color: #fff; }
-    .cta p { font-size: 16px; color: #c7c7c7; margin-bottom: 20px; }
-    .cta a { background-color: #e11; padding: 14px 28px; border-radius: 8px; color: white; text-decoration: none; font-weight:700; }
-    footer { padding: 26px; text-align: center; background-color: #000; color: #777; margin-top: 40px; font-size: 14px; }
+    body {
+      margin: 0;
+      font-family: Inter, Arial, sans-serif;
+      background-color: #00040a;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 2px solid #0a0f1a;
+      background: linear-gradient(180deg,#000,#020b18);
+    }
+
+    .logo {
+      font-size: 45px;
+      font-weight: 900;
+      color: #e6e6e6;
+      letter-spacing: 2px;
+    }
+
+    .hero {
+      padding: 110px 20px;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 46px;
+      margin-bottom: 20px;
+      color: #f4f4f4;
+    }
+    .hero p {
+      font-size: 20px;
+      max-width: 800px;
+      color: #bfc6cf;
+      margin: auto;
+    }
+
+    .section {
+      padding: 70px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      font-size: 34px;
+      margin-bottom: 18px;
+      color: #e6e6e6;
+    }
+
+    .section p {
+      max-width: 900px;
+      margin: auto;
+      font-size: 18px;
+      color: #b8b8b8;
+    }
+
+    .services {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .card {
+      background-color: #030a14;
+      padding: 28px;
+      width: 310px;
+      border-radius: 12px;
+      border: 1px solid #07101d;
+      box-shadow: 0 6px 22px rgba(0,0,0,0.5);
+    }
+
+    .card h3 {
+      color: #e6e6e6;
+      font-size: 22px;
+      margin-bottom: 12px;
+    }
+
+    .card p {
+      color: #a9a9a9;
+      font-size: 15px;
+    }
+
+    .cta {
+      background: linear-gradient(180deg,#000,#061120);
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    .cta h2 { font-size: 30px; margin-bottom: 18px; color: #fff; }
+
+    .cta p { font-size: 18px; color: #c7c7c7; margin-bottom: 22px; }
+
+    .cta a {
+      background-color: #cc1111;
+      padding: 15px 32px;
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+      font-weight: 800;
+      font-size: 17px;
+    }
+
+    footer {
+      padding: 30px;
+      text-align: center;
+      background-color: #000;
+      color: #777;
+      font-size: 15px;
+      margin-top: 40px;
+    }
+
     @media (max-width:720px) {
       .services { flex-direction: column; align-items: center; }
-      .hero h1 { font-size: 28px; }
+      .hero h1 { font-size: 30px; }
+      .hero p { font-size: 16px; }
     }
   </style>
 </head>
@@ -35,38 +131,76 @@
   <div class="logo">MACHADO COPY</div>
 </header>
 
-<section class="hero" id="home">
-  <h1>Copywriting de Elite para Resultados Reais</h1>
-  <p>Transformo palavras em lucro. Estratégias feitas sob medida para anúncios, emails, páginas de venda e negócios que querem escalar.</p>
+<section class="hero">
+  <h1>Texto que atrai, convence e vende.</h1>
+  <p>Profissionalismo, estratégia e uma comunicação construída para transformar interesse em ação. A Machado Copy cria mensagens que fortalecem marcas e geram resultados reais.</p>
 </section>
 
-<section class="section" id="sobre">
-  <h2>Quem Somos</h2>
-  <p>A Machado Copy nasceu para elevar o padrão da comunicação das marcas que querem se destacar. Cada palavra é tratada como estratégia — não decoração. Entregamos textos com objetivo claro: gerar conexão, autoridade e resultados.</p>
+<section class="section">
+  <h2>Sobre a Empresa</h2>
+  <p>A Machado Copy é especializada em elevar o nível da comunicação digital de negócios que querem crescer.  
+  Trabalhamos com clareza, estratégia e profundidade — cada palavra tem um propósito. Não seguimos fórmulas prontas: criamos estruturas adaptadas ao que seu público realmente pensa, sente e deseja.</p>
 </section>
 
-<section class="section" id="servicos">
-  <h2>Serviços de Alta Conversão</h2>
+<section class="section">
+  <h2>Nossa Filosofia</h2>
+  <p>Acreditamos que boa comunicação não é sobre escrever bonito, mas sobre entender pessoas.  
+  Nosso foco está em compreender sua marca, seus objetivos e o comportamento do seu público para transformar sua mensagem em impacto real.</p>
+</section>
+
+<section class="section">
+  <h2>Por que escolher a Machado Copy?</h2>
+  <p>✔ Textos construídos com lógica, intenção e clareza.<br>
+     ✔ Foco total na experiência do cliente que lê.<br>
+     ✔ Entrega profissional, rápida e alinhada com o posicionamento da sua marca.<br>
+     ✔ Estratégias aplicadas por quem estuda diariamente comportamento, comunicação e vendas.</p>
+</section>
+
+<section class="section">
+  <h2>Serviços</h2>
   <div class="services">
+
     <div class="card">
       <h3>Copy para Anúncios</h3>
-      <p>Anúncios profissionais projetados para capturar atenção, aumentar CTR e converter.</p>
+      <p>Escrita direta, objetiva e impactante para captar atenção em segundos e aumentar cliques.</p>
     </div>
+
     <div class="card">
       <h3>Páginas de Vendas</h3>
-      <p>Landing pages completas, construídas para transformar visitantes em compradores com ofertas claras e provas.</p>
+      <p>Estruturas completas desenhadas para transformar visitantes em clientes com clareza, fluidez e oferta bem definida.</p>
     </div>
+
     <div class="card">
       <h3>Sequências de E-mail</h3>
-      <p>Fluxos que nutrem, engajam e convertem, com chamadas para ação precisas.</p>
+      <p>Mensagens que mantêm o público engajado, constroem desejo e conduzem até a decisão de compra.</p>
     </div>
+
+    <div class="card">
+      <h3>Roteiros e Storytelling</h3>
+      <p>Narrativas criadas para Reels, Shorts, TikTok e vídeos de apresentação que conectam e retêm atenção.</p>
+    </div>
+
   </div>
 </section>
 
-<section class="cta" id="contato">
-  <h2>Pronto para aumentar seus resultados?</h2>
-  <p>Fale com a Machado Copy e vamos criar um plano de comunicação que gere lucro real.</p>
-  <a href="mailto:csousamartins@gmail.com">Enviar Mensagem</a>
+<section class="section">
+  <h2>Nosso Processo</h2>
+  <p>1. Entendemos sua marca e seus objetivos.<br>
+     2. Identificamos o perfil exato do público que você quer atingir.<br>
+     3. Criamos textos estruturados, claros e com foco em conversão.<br>
+     4. Ajustamos tudo até entregar comunicação alinhada ao posicionamento que você deseja.</p>
+</section>
+
+<section class="section">
+  <h2>Para quem trabalhamos</h2>
+  <p>Atendemos marcas que querem comunicar com profissionalismo:  
+     empreendedores, criadores de conteúdo, negócios locais, lojas online e infoprodutores que buscam melhorar resultados e fortalecer sua imagem.</p>
+</section>
+
+<section class="cta">
+  <h2>Pronto para elevar a comunicação da sua marca?</h2>
+  <p>Entre em contato e vamos criar um texto que realmente represente quem você é e onde sua marca quer chegar.</p>
+  <a href="mailto:csousamartins@gmail.com">Falar com a Machado Copy</a>
 </section>
 
 <footer>
