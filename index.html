@@ -1,102 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Machado Copy</title>
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: Arial, sans-serif;
-            background: #000000;
-            color: #ffffff;
-        }
-        header {
-            background: linear-gradient(90deg, #000000, #001a33);
-            padding: 40px;
-            text-align: center;
-        }
-        header h1 {
-            font-size: 48px;
-            margin: 0;
-            color: #00aaff;
-        }
-        header p {
-            font-size: 18px;
-            margin-top: 10px;
-            color: #d0d0d0;
-        }
-        .section {
-            max-width: 900px;
-            margin: 60px auto;
-            padding: 20px;
-            background: #0a0a0a;
-            border: 1px solid #222;
-            border-radius: 10px;
-        }
-        .section h2 {
-            font-size: 32px;
-            margin-bottom: 20px;
-            color: #00aaff;
-        }
-        .section p {
-            font-size: 18px;
-            line-height: 1.6;
-        }
-        .services-list {
-            margin-top: 20px;
-        }
-        .services-list li {
-            font-size: 18px;
-            margin-bottom: 10px;
-        }
-        footer {
-            text-align: center;
-            padding: 40px;
-            background: #000000;
-            color: #888;
-            font-size: 16px;
-            border-top: 1px solid #111;
-        }
-        a {
-            color: #00aaff;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machado Copy — Copywriting de Alta Performance</title>
+  <style>
+    body { margin: 0; font-family: Inter, Arial, sans-serif; background-color: #00040a; color: #ffffff; }
+    header { padding: 40px 20px; text-align: center; border-bottom: 2px solid #0a0f1a; background: linear-gradient(180deg,#000,#020b18); }
+    .logo { font-size: 42px; font-weight: 800; color: #e6e6e6; letter-spacing: 2px; }
+    .hero { padding: 100px 20px; text-align: center; }
+    .hero h1 { font-size: 44px; margin-bottom: 16px; color: #f3f3f3; }
+    .hero p { font-size: 18px; max-width: 780px; margin: auto; color: #bfc6cf; }
+    .section { padding: 64px 20px; text-align: center; }
+    .section h2 { font-size: 32px; margin-bottom: 18px; color: #d3d3d3; }
+    .section p { max-width: 900px; margin: auto; color: #b8b8b8; font-size: 16px; line-height:1.8; }
+    .services { display: flex; flex-wrap: wrap; gap: 24px; justify-content: center; padding: 40px 20px; }
+    .card { background-color: #030a14; padding: 26px; width: 300px; border-radius: 12px; border: 1px solid #07101d; box-shadow: 0 6px 20px rgba(0,0,0,0.5); }
+    .card h3 { font-size: 20px; margin-bottom: 10px; color: #e6e6e6; }
+    .card p { color: #a9a9a9; font-size: 14px; }
+    .cta { background: linear-gradient(180deg,#000,#061120); padding: 80px 20px; text-align: center; }
+    .cta h2 { font-size: 28px; margin-bottom: 12px; color: #fff; }
+    .cta p { font-size: 16px; color: #c7c7c7; margin-bottom: 20px; }
+    .cta a { background-color: #e11; padding: 14px 28px; border-radius: 8px; color: white; text-decoration: none; font-weight:700; }
+    footer { padding: 26px; text-align: center; background-color: #000; color: #777; margin-top: 40px; font-size: 14px; }
+    @media (max-width:720px) {
+      .services { flex-direction: column; align-items: center; }
+      .hero h1 { font-size: 28px; }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Machado Copy</h1>
-        <p>Textos que atraem, engajam e transformam resultados.</p>
-    </header>
 
-    <div class="section">
-        <h2>Sobre a Machado Copy</h2>
-        <p>
-            A Machado Copy é uma empresa focada em criar textos profissionais para quem quer vender mais e comunicar melhor. Nosso estilo é direto, estratégico e feito sob medida para o seu público.
-        </p>
+<header>
+  <div class="logo">MACHADO COPY</div>
+</header>
+
+<section class="hero" id="home">
+  <h1>Copywriting de Elite para Resultados Reais</h1>
+  <p>Transformo palavras em lucro. Estratégias feitas sob medida para anúncios, emails, páginas de venda e negócios que querem escalar.</p>
+</section>
+
+<section class="section" id="sobre">
+  <h2>Quem Somos</h2>
+  <p>A Machado Copy nasceu para elevar o padrão da comunicação das marcas que querem se destacar. Cada palavra é tratada como estratégia — não decoração. Entregamos textos com objetivo claro: gerar conexão, autoridade e resultados.</p>
+</section>
+
+<section class="section" id="servicos">
+  <h2>Serviços de Alta Conversão</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Copy para Anúncios</h3>
+      <p>Anúncios profissionais projetados para capturar atenção, aumentar CTR e converter.</p>
     </div>
-
-    <div class="section">
-        <h2>Serviços</h2>
-        <p>Oferecemos serviços completos de criação de texto para:</p>
-        <ul class="services-list">
-            <li>Títulos fortes que chamam atenção</li>
-            <li>Estrutura completa de páginas de vendas</li>
-            <li>Scripts de vídeo e anúncios</li>
-            <li>Textos para sites e landing pages</li>
-            <li>Descrições profissionais de produtos</li>
-        </ul>
+    <div class="card">
+      <h3>Páginas de Vendas</h3>
+      <p>Landing pages completas, construídas para transformar visitantes em compradores com ofertas claras e provas.</p>
     </div>
-
-    <div class="section">
-        <h2>Contato</h2>
-        <p>Fale conosco para solicitar um serviço ou tirar dúvidas:</p>
-        <p><strong>Email:</strong> csousamartins@gmail.com</p>
+    <div class="card">
+      <h3>Sequências de E-mail</h3>
+      <p>Fluxos que nutrem, engajam e convertem, com chamadas para ação precisas.</p>
     </div>
+  </div>
+</section>
 
-    <footer>
-        © 2025 Machado Copy — Todos os direitos reservados.
-    </footer>
+<section class="cta" id="contato">
+  <h2>Pronto para aumentar seus resultados?</h2>
+  <p>Fale com a Machado Copy e vamos criar um plano de comunicação que gere lucro real.</p>
+  <a href="mailto:csousamartins@gmail.com">Enviar Mensagem</a>
+</section>
+
+<footer>
+  © 2025 Machado Copy — Todos os direitos reservados.
+</footer>
+
 </body>
 </html>
